@@ -1,0 +1,135 @@
+body{
+    overflow: hidden;
+    font-size: 16px;
+}
+.logo{
+    height: 1em;
+    width: 1em;
+    display: block;
+    color: #FF5A5F;
+    font-size: 34px !important;
+}
+
+#menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header{ 
+    padding: 16px 0;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 12px;
+}
+
+#menu>div{
+    padding: 16px;
+}
+
+#input{
+    border: 1px solid lightgray;
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input input{
+    border: none;
+    width: 100%;
+    box-sizing: border-box;    
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+.tab-content>.active{
+    display: flex !important;
+}
+
+#list-container{
+    display: flex;
+    flex-direction: column
+}
+#list-container img{
+    width: 100%;
+}
+
+#result{
+    overflow-y: overlay;
+    height: 100vh;
+}
+
+#list-container>div{
+    margin: 8px;
+} 
+
+#list-container>div>div{
+    border: 1px solid lightgray;
+    padding: inherit;
+} 
+
+#mapid { height: 100vh; }
+#mapid2 { 
+    height: 100vh; 
+    width: 100vw
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#v-pills-tab{
+    margin: 12px;
+}
+#v-pills-tab>a{
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+    border-radius: 3px 0px 0px 3px !important;
+    padding: 4px 48px;
+}
+.nav-link.active{
+    color: rgb(0, 132, 137) !important;
+}
+
+aside .mainButton{
+    color: black;
+    background-color: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+}
+
+#map-tab{
+    height: 100vh;
+}
+
+#result-text{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+#result>div:first-child{
+    display: flex;
+    padding: 16px 0;
+}
+
+#list-title{
+    font-weight: 800;
+    margin-bottom: 0px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    color: rgb(72, 72, 72);
+}
+
+#filters{
+    width: 100vw;
+    height: 80vh;
+}
